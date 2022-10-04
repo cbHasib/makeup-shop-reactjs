@@ -4,7 +4,7 @@ const HomeIntro = () => {
   return (
     <div className="py-20">
       <div className="w-[95%] lg:w-[80%] mx-auto">
-        <h2 className="text-4xl">Makeup Yourself</h2>
+        <h2 className="text-4xl font-medium">Makeup Yourself</h2>
         <p className="my-4">
           Discover our makeover products and their benefits that help you to
           find your best makeup products.

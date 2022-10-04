@@ -50,18 +50,18 @@ const Header = () => {
               <li>
                 <NavLink to={"/home"}>Homepage</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to={"/product"}>Product</NavLink>
               </li>
               <li>
                 <NavLink to={"/about"}>About</NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
         <div className="navbar-center">
           <NavLink to={"/"} className="btn btn-ghost normal-case text-xl">
-            daisyUI
+            makeYourSelf
           </NavLink>
         </div>
         <div className="navbar-end">
