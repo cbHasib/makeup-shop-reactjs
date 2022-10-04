@@ -1,0 +1,26 @@
+.product-type-card:hover .product-type-thumb::before {
+    opacity: 1;
+}
+
+.product-type-card .product-type-thumb::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    background: linear-gradient(100deg, rgba(255, 0, 225, 0.3), rgba(0, 0, 255, 0));
+    z-index: 255;
+}
+
+.product-type-card:hover .product-type-thumb img {
+    transform: scale(1.05);
+}
+
+.product-type-card .product-type-thumb img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+}
